@@ -17556,3 +17556,811 @@ html.baseline.gray #background-loader {
     inset: 0;
     overflow: hidden
 }
+
+
+.display-login-top,
+.display-login-top-mobile {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.smartphone .mp {
+  display: none !important;
+}
+
+.display-login-top > div,
+.display-login-top-mobile > div {
+  margin: 0 auto;
+}
+
+.mailBackground > div:nth-child(1),
+.portalBackground > div:nth-child(1) {
+  position: absolute;
+  right: 0;
+}
+
+.mailBackground > div:nth-child(2),
+.portalBackground > div:nth-child(2) {
+  position: absolute;
+  width: 300px;
+  top: 90px;
+  right: 0;
+}
+
+.io-ox-ad.portalBackground ~ .widgets {
+  margin-top: 154px;
+}
+
+.io-ox-display-portalWidget .display-label {
+  top: 0 !important;
+}
+
+.io-ox-portal .widget.io-ox-display-portalWidget div {
+  top: auto;
+  left: auto;
+  transform: none;
+  position: initial;
+}
+
+.io-ox-portal .widget.io-ox-display-portalWidget > div {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
+
+.io-ox-display-portalWidget .decoration {
+  width: 100%;
+}
+
+.io-ox-display-portalWidget .display-label {
+  z-index: 1000;
+  position: absolute;
+  top: 23px;
+}
+
+.thread-view-control.show-ad.back-navigation-visible
+  .thread-view-list.scrollable {
+  top: 45px;
+}
+
+.thread-view-control.show-ad .thread-view-list.scrollable {
+  top: 0;
+}
+
+.display-label {
+  font-size: 11px;
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin-bottom: 5px;
+  color: #999;
+  line-height: 11px;
+}
+
+.content-v-shift .window-content.io-ox-portal {
+  padding-top: 65px;
+}
+
+#io-ox-display-mail-folder,
+#io-ox-display-calendar-folder,
+#io-ox-display-contacts-folder,
+#io-ox-display-tasks-folder {
+  margin: 20px;
+}
+
+.io-ox-display-skyscraper {
+  display: none;
+  flex-direction: column;
+}
+
+.io-ox-display-skyscraper.right {
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+  text-align: center;
+  width: 165px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+
+.io-ox-display-skyscraper.left ~ #io-ox-core {
+  left: 0;
+  margin-left: 0;
+}
+
+.io-ox-display-skyscraper.right ~ #io-ox-core {
+  right: 0;
+  margin-right: 0;
+}
+
+.io-ox-display-skyscraper > div {
+  margin: 0 auto !important;
+}
+
+#io-ox-display-mail-list {
+  margin: 0;
+  top: 40px;
+  height: 55px !important;
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.smartphone #io-ox-display-mail-list {
+  top: 0;
+  height: 67px;
+  margin: 0;
+}
+
+.smartphone .list-view-control.inbox #io-ox-display-mail-list {
+  display: block !important;
+}
+
+.smartphone .toolbar-top-visible #io-ox-display-mail-list {
+  top: 55px;
+}
+
+.smartphone .show-list-ad {
+  margin-top: 0;
+}
+
+.smartphone .toolbar-top-visible .list-view.show-list-ad {
+  margin-top: 30px;
+}
+
+.smartphone #io-ox-display-fusion-bottom-center {
+  min-height: 71px;
+  margin: 0 auto;
+  background: #fafafa;
+  visibility: visible;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  z-index: 10;
+}
+
+.smartphone.show-display-fusion-bottom-center:not(.custom-portal)
+  body
+  #io-ox-core
+  .window-container.io-ox-calendar-edit-window,
+.smartphone.show-display-fusion-bottom-center:not(.custom-portal)
+  body
+  #io-ox-core
+  .window-container.io-ox-mail-compose-window,
+.smartphone.show-display-fusion-bottom-center:not(.custom-portal)
+  body
+  #io-ox-core
+  .window-container.io-ox-contacts-edit-window,
+.smartphone.show-display-fusion-bottom-center:not(.custom-portal)
+  body
+  #io-ox-core
+  .window-container.io-ox-tasks-edit-window {
+  bottom: 71px;
+}
+
+.list-view-control:not(.upside-down).toolbar-top-visible
+  .list-view.show-list-ad {
+  top: 95px;
+}
+
+.preview-right
+  .list-view-control:not(.upside-down).toolbar-top-visible
+  .list-view.show-list-ad {
+  top: 95px;
+}
+
+.preview-right #io-ox-display-mail-list {
+  height: 55px;
+}
+
+@media all and (min-width: 1280px) {
+  .io-ox-display-skyscraper {
+    display: block;
+    width: 130px !important;
+  }
+
+  .io-ox-display-skyscraper.left ~ #io-ox-core {
+    left: 130px;
+  }
+
+  .io-ox-display-skyscraper.right ~ #io-ox-core {
+    right: 130px;
+  }
+}
+
+@media all and (min-width: 1330px) {
+  .io-ox-display-skyscraper-right .io-ox-display-skyscraper.right {
+    width: 170px !important;
+  }
+
+  .io-ox-display-skyscraper-right
+    .io-ox-display-skyscraper.right.left
+    ~ #io-ox-core {
+    left: 170px;
+  }
+
+  .io-ox-display-skyscraper-right
+    .io-ox-display-skyscraper.right.right
+    ~ #io-ox-core {
+    right: 170px;
+  }
+}
+
+@media all and (min-width: 1470px) {
+  .io-ox-display-skyscraper-right .io-ox-display-skyscraper.right {
+    width: 310px !important;
+  }
+
+  .io-ox-display-skyscraper-right
+    .io-ox-display-skyscraper.right.left
+    ~ #io-ox-core {
+    left: 310px;
+  }
+
+  .io-ox-display-skyscraper-right
+    .io-ox-display-skyscraper.right.right
+    ~ #io-ox-core {
+    right: 310px;
+  }
+}
+
+@media all and (min-width: 1120px) {
+  .portal .io-ox-display-skyscraper.right {
+    display: block;
+    width: 310px !important;
+  }
+
+  .portal .io-ox-display-skyscraper.right ~ #io-ox-core {
+    right: 310px !important;
+  }
+}
+
+#io-ox-display-portal:not(:empty) {
+  height: 340px !important;
+  padding-top: 0 !important;
+  padding-right: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+@media (max-width: 560px) {
+  #io-ox-display-portal:not(:empty) {
+    padding: 0 14px;
+    margin-bottom: 0;
+  }
+}
+
+#io-ox-display-portal:not(:empty) iframe {
+  height: 340px;
+  width: 100%;
+  border: 0;
+}
+
+.ads-close {
+  margin-top: 30px;
+}
+
+.display-login-top {
+  min-height: 106px;
+}
+
+#io-ox-display-fusion-bottom-center-mail,
+#io-ox-display-fusion-bottom-center-calendar,
+#io-ox-display-fusion-bottom-center-contacts,
+#io-ox-display-fusion-bottom-center-tasks,
+#io-ox-display-fusion-bottom-center-portal {
+  background: #fff;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  z-index: 10;
+  min-height: 109px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#io-ox-display-fusion-bottom-center-mail > div,
+#io-ox-display-fusion-bottom-center-calendar > div,
+#io-ox-display-fusion-bottom-center-contacts > div,
+#io-ox-display-fusion-bottom-center-tasks > div,
+#io-ox-display-fusion-bottom-center-portal > div {
+  margin: 0 auto;
+}
+
+.smartphone #io-ox-display-fusion-bottom-center-mail,
+.smartphone #io-ox-display-fusion-bottom-center-calendar,
+.smartphone #io-ox-display-fusion-bottom-center-contacts,
+.smartphone #io-ox-display-fusion-bottom-center-tasks,
+.smartphone #io-ox-display-fusion-bottom-center-portal {
+  min-height: 71px;
+  margin: 0 auto;
+  background: #fafafa;
+}
+
+.smartphone #io-ox-display-fusion-bottom-center-mail .display-label,
+.smartphone #io-ox-display-fusion-bottom-center-calendar .display-label,
+.smartphone #io-ox-display-fusion-bottom-center-contacts .display-label,
+.smartphone #io-ox-display-fusion-bottom-center-tasks .display-label,
+.smartphone #io-ox-display-fusion-bottom-center-portal .display-label {
+  margin-top: 5px;
+}
+
+@media (max-width: 900px) {
+  .touch #io-ox-display-fusion-bottom-center-mail,
+  .touch #io-ox-display-fusion-bottom-center-calendar,
+  .touch #io-ox-display-fusion-bottom-center-contacts,
+  .touch #io-ox-display-fusion-bottom-center-tasks,
+  .touch #io-ox-display-fusion-bottom-center-portal {
+    display: none !important;
+  }
+}
+
+.tt-btn-close-upsell {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+:root {
+  --talktalk-brand-primary: #2c67c7;
+  --talktalk-topbar-background: #2c4047;
+  --talktalk-topbar-launcher-background-hover: rgba(0, 0, 0, 0.3);
+  --talktalk-topbar-launcher-color-hover: #fff;
+  --talktalk-topbar-launcher-color-active: #fff;
+  --talktalk-topbar-launcher-background-active: #163a76;
+  --talktalk-topbar-launcher-background-active-hover: #143366;
+  --talktalk-link-color: #2c67c7;
+  --talktalk-btn-primary-bg: #08f0ff;
+}
+
+@font-face {
+  font-family: TalkTalkIcons;
+  src: url(./assets/font/TalkTalkIcons.woff);
+  font-weight: 700;
+}
+
+#io-ox-login-container {
+  background: #fff !important;
+}
+
+#io-ox-login-background.wallpaper {
+  background: var(--talktalk-foldertree-sidepanel-background);
+  background-image: none;
+}
+
+#io-ox-login-box > div.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.smartphone #io-ox-login-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: stretch;
+}
+
+.smartphone #io-ox-login-box {
+  padding: 0 15px 30px;
+}
+
+.smartphone #io-ox-login-container {
+  margin-top: 0;
+}
+
+.smartphone #io-ox-login-container > div > div {
+  padding: 0;
+}
+
+.smartphone #io-ox-login-container #box-form {
+  border: none;
+  width: 380px !important;
+  box-shadow: none;
+}
+
+.smartphone #io-ox-login-container #box-form form {
+  padding: 0 15px 15px;
+}
+
+.smartphone #io-ox-login-container #box-form .change-user {
+  top: -25px;
+}
+
+.smartphone #io-ox-login-header .login-top-bar {
+  justify-content: end;
+}
+
+.smartphone #io-ox-login-header nav {
+  padding-right: 0;
+}
+
+.smartphone #io-ox-login-screen #io-ox-login-container .password label {
+  display: block;
+}
+
+#io-ox-login-screen {
+  background: #fff;
+}
+
+#io-ox-login-container {
+  color: #696969;
+  justify-content: start;
+  top: auto;
+  -webkit-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+
+#io-ox-login-container #io-ox-login-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#io-ox-login-container a:not(.btn) {
+  color: var(--talktalk-topbar-background);
+}
+
+#io-ox-login-container a:not(.btn):focus,
+#io-ox-login-container a:not(.btn):hover {
+  color: var(--talktalk-brand-primary);
+}
+
+#io-ox-login-container .btn-primary {
+  background: var(--talktalk-btn-primary-bg);
+  color: #2c4047;
+  font-weight: 700;
+  border: 0;
+  border-radius: 6px;
+}
+
+#io-ox-login-container .btn-primary:focus,
+#io-ox-login-container .btn-primary:hover {
+  background: #00d1ff;
+}
+
+#io-ox-login-container .title {
+  font-size: 30px;
+  margin-bottom: 25px;
+  line-height: 40px;
+}
+
+#io-ox-login-container .notification {
+  margin-bottom: 10px;
+}
+
+#io-ox-login-container .subtitle {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+#io-ox-login-container #io-ox-login-left-content {
+  font-size: 14px;
+  color: #2f2c2c;
+}
+
+#io-ox-login-container #io-ox-login-left-content img.mark-as-spam {
+  height: 240px;
+  width: auto;
+  margin-left: -25px;
+  margin-top: -10px;
+}
+
+#io-ox-login-container #io-ox-login-left-content .message {
+  margin-bottom: 10px;
+}
+
+#io-ox-login-container #io-ox-login-left-content .notification a {
+  text-decoration: underline;
+  color: #2c4047;
+}
+
+#io-ox-login-container .wrapper {
+  padding-right: 60px;
+  margin-bottom: 50px;
+}
+
+#box-form {
+  border: 1px solid #696969;
+  border-radius: 0;
+  text-align: left;
+  box-shadow: none;
+}
+
+#box-form form {
+  padding: 0 15px;
+}
+
+#box-form h1 {
+  color: #333;
+  font-size: 36px;
+}
+
+#box-form h2 {
+  color: #2c4047;
+  font-size: 17px;
+  margin: 0 0 20px;
+  font-weight: 700;
+}
+
+#box-form ul.apps {
+  color: #7a7a7a;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+#box-form ul.apps li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 2px;
+}
+
+#box-form ul.apps li .title {
+  font-size: 10px;
+}
+
+#box-form ul.apps li .icon {
+  font-size: 28px;
+}
+
+#box-form .header {
+  color: #2c4047;
+  font-size: 125px;
+  margin-top: 15px;
+  z-index: 1;
+  display: inline-block;
+  font-family: TalkTalkIcons;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90px;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  vertical-align: middle;
+}
+
+#box-form .header:before {
+  /* content: "ï‡¦"; */
+  content: "";
+}
+
+#box-form .change-user {
+  border: none;
+  padding: 0;
+  background: transparent;
+  color: var(--talktalk-topbar-background);
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 13px;
+}
+
+#box-form .username .form-group {
+  position: relative;
+}
+
+#box-form .alert.alert-info {
+  background: #f9e7eb;
+  border: none;
+  border-radius: 0;
+  color: #333;
+  border-top: 5px solid #c03;
+  border-bottom: 1px solid #c03;
+}
+
+#box-form #io-ox-login-feedback {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#box-form label {
+  color: #666;
+  margin-bottom: 5px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+#io-ox-forgot-password {
+  margin-bottom: 16px;
+}
+
+#io-ox-login-header {
+  width: 100%;
+  padding-bottom: 0;
+  background: #fff;
+}
+
+#io-ox-login-header .login-top-bar {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  background-color: var(--talktalk-topbar-background);
+}
+
+#io-ox-login-header nav {
+  padding-right: 15px;
+}
+
+#io-ox-login-header nav .nav {
+  display: block;
+  padding: 0;
+}
+
+#io-ox-login-header nav .nav li {
+  display: block;
+}
+
+#io-ox-login-header nav .nav .top-nav {
+  padding: 0;
+  display: flex;
+}
+
+#io-ox-login-header nav .nav .top-nav > li {
+  display: flex;
+}
+
+#io-ox-login-header nav .nav .top-nav > li > a,
+#io-ox-login-header nav .nav .top-nav > li > div > a {
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  padding: 10px 15px 0;
+  font-size: 20px;
+}
+
+#io-ox-login-header nav .nav .top-nav > li > a:hover,
+#io-ox-login-header nav .nav .top-nav > li > a:focus,
+#io-ox-login-header nav .nav .top-nav > li > div > a:hover,
+#io-ox-login-header nav .nav .top-nav > li > div > a:focus {
+  text-decoration: none;
+  background: var(--talktalk-topbar-launcher-background-hover);
+}
+
+#io-ox-login-header nav .nav .open {
+  display: flex;
+}
+
+#io-ox-login-header nav .nav .open > a {
+  color: #fff;
+  display: inline-block;
+  background: var(--talktalk-topbar-launcher-background-hover);
+  height: 40px;
+  padding: 10px 15px 0;
+}
+
+#io-ox-login-header nav .nav .open > a:hover,
+#io-ox-login-header nav .nav .open > a:focus {
+  text-decoration: none;
+  background: var(--talktalk-topbar-launcher-background-hover);
+}
+
+#io-ox-login-header nav .dropdown-menu li {
+  display: block;
+}
+
+#io-ox-login-header nav .dropdown-menu li a {
+  display: block;
+  font-size: 14px;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+}
+
+#io-ox-login-header .header-logo {
+  height: 100%;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin: 0 10px;
+}
+
+#io-ox-login-header .header-logo a img {
+  height: 45px;
+  width: auto;
+}
+
+#io-ox-login-footer {
+  display: none;
+}
+
+.wizard-content .form-group.phone {
+  margin-bottom: 20px;
+}
+
+.wizard-step .tt-data-usage-url {
+  font-weight: 400;
+}
+
+.wizard-step .tt-data-usage-url svg {
+  font-size: 20px;
+  color: #2c67c7;
+  margin-right: 5px;
+}
+
+#tt-banner-bottom-right {
+  position: fixed;
+  text-align: center;
+  line-height: 25px;
+  inset: auto -50px 30px auto;
+  transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  width: 250px;
+  color: #f0f0f0;
+  background: #2c7;
+  box-shadow: 0 0 3px #0000004d;
+  z-index: 100000;
+}
+
+#io-ox-login-form-container.tt-logout-panel p {
+  color: #2c4047;
+  margin: 20px 0 30px;
+}
+
+#io-ox-login-form-container.tt-logout-panel button {
+  height: 40px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#io-ox-login-form-container.tt-logout-panel button.btn-secondary {
+  background-color: silver;
+}
+
+#box-form,
+#io-ox-information-message {
+  width: auto;
+}
+
+#box-form-header {
+  display: none;
+}
+
+#box-form-body {
+  min-height: auto;
+  padding-bottom: 10px;
+}
+
+#box-form-body form > div {
+  padding: 0;
+}
+
+#box-form-body form > div .title {
+  display: none;
+}
+
+#box-form-body form > div .row.feedback {
+  min-height: 0px;
+  margin-bottom: 0;
+}
+
+#io-ox-login-screen .form-control {
+  padding: 4px;
+}
+
+#box-form .form-group {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#io-ox-login-container,
+#io-ox-login-background-image {
+  justify-content: start;
+}
+
+#io-ox-login-store-box:checked {
+  background-color: #2c4047;
+}
