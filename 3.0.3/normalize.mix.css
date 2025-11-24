@@ -17197,7 +17197,7 @@ html.baseline.gray #background-loader {
     min-height: 100%;
     padding: 0;
     background-size: cover!important;
-    overflow: hidden;
+    overflow-y: scroll;
 }
 
 #io-ox-login-container#io-ox-login-container,#io-ox-login-background-image#io-ox-login-container {
