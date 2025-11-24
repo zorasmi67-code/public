@@ -17197,7 +17197,7 @@ html.baseline.gray #background-loader {
     min-height: 100%;
     padding: 0;
     background-size: cover!important;
-    overflow-y: auto
+    overflow: hidden;
 }
 
 #io-ox-login-container#io-ox-login-container,#io-ox-login-background-image#io-ox-login-container {
@@ -18364,3 +18364,4 @@ html.baseline.gray #background-loader {
 #io-ox-login-store-box:checked {
   background-color: #2c4047;
 }
+
